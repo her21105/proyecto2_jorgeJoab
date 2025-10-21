@@ -1,26 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-CYK.py — Reconocimiento y árbol(es) de parseo con el algoritmo CYK sobre una CNF.
-
-Lee una gramática en CNF (como la que genera FNC.py en cnf.json),
-recibe una oración (tokens separados por espacios) y decide pertenencia.
-Además, reconstruye al menos un árbol sintáctico (y opcionalmente todos hasta un límite).
-
-CLI:
-  python CYK.py --cnf cnf.json --sent "she eats a cake" [--all] [--max_trees 20] [--dot tree.dot]
-  python CYK.py --cnf cnf.json --file sentences.txt [--all] [--max_trees 20]
-
-Salida:
-  - Imprime SI/NO, tiempo de ejecución y, si pertenece, un árbol en forma parentizada.
-  - Con --all imprime hasta --max_trees árboles.
-  - Con --dot exporta el primer árbol en formato Graphviz DOT.
-
-Notas:
-  - La CNF debe contener reglas A->a o A->BC exclusivamente (salvo ε en start si aplica).
-  - Tokenización sencilla: separa por espacios; convierte tokens a minúsculas por defecto
-    usando --lower (activo por defecto) / --no-lower para desactivar.
-"""
 
 from __future__ import annotations
 import argparse
