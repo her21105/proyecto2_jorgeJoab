@@ -296,7 +296,7 @@ def run_once(cnf_path: str, sent: str, all_trees: bool, max_trees: int, lower: b
 def main():
 
     cnf = r'C:\Users\Joabh\Documents\GitHub\proyecto2_jorgeJoab\cnf.json' #ruta al cnf.json generado por FNC.py
-    sent = "the cat eats the cake with a fork in the oven" #oración a verificar (tokens separados por espacios)
+    sent = "the cat drinks beer in the dog" #oración a verificar (tokens separados por espacios)
     file = None #archivo con una oración por línea
     all_trees = True #imprimir todos los árboles hasta --max_trees
     max_trees = 20 #límite de árboles a imprimir cuando --all

@@ -34,46 +34,18 @@
   ],
   "start": "S0",
   "rules": {
-    "NP": [
+    "Det": [
       [
-        "Det",
-        "N"
+        "a"
       ],
       [
-        "NP",
-        "PP"
-      ],
-      [
-        "he"
-      ],
-      [
-        "she"
+        "the"
       ]
     ],
     "PP": [
       [
         "P",
         "NP"
-      ]
-    ],
-    "S0": [
-      [
-        "NP",
-        "VP"
-      ]
-    ],
-    "V": [
-      [
-        "cooks"
-      ],
-      [
-        "drinks"
-      ],
-      [
-        "eats"
-      ],
-      [
-        "cuts"
       ]
     ],
     "N": [
@@ -111,20 +83,16 @@
         "spoon"
       ]
     ],
-    "Det": [
+    "NP": [
       [
-        "a"
+        "Det",
+        "N"
       ],
       [
-        "the"
-      ]
-    ],
-    "P": [
-      [
-        "in"
+        "he"
       ],
       [
-        "with"
+        "she"
       ]
     ],
     "VP": [
@@ -148,6 +116,34 @@
       [
         "cuts"
       ]
+    ],
+    "V": [
+      [
+        "cooks"
+      ],
+      [
+        "drinks"
+      ],
+      [
+        "eats"
+      ],
+      [
+        "cuts"
+      ]
+    ],
+    "S0": [
+      [
+        "NP",
+        "VP"
+      ]
+    ],
+    "P": [
+      [
+        "in"
+      ],
+      [
+        "with"
+      ]
     ]
   },
   "mappings": {
@@ -157,7 +153,7 @@
     },
     "removed_epsilon": {
       "nullable": [],
-      "expanded": 32
+      "expanded": 31
     },
     "removed_unit": {
       "unit_pairs": [

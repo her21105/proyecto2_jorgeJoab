@@ -416,7 +416,7 @@ def main():
     outfile = "cnf.json" #salida JSON (cnf.json)
     txtfile = "cnf.txt" #salida legible (cnf.txt)
     repfile = "report.md" #reporte de pasos (report.md)
-    infile = r'C:\Users\Joabh\Documents\GitHub\proyecto2_jorgeJoab\gramatica2.txt' #ruta del archivo de gramática (txt)
+    infile = r'C:\Users\Joabh\Documents\GitHub\proyecto2_jorgeJoab\gramatica.txt' #ruta del archivo de gramática (txt)
     start = None #símbolo inicial (por defecto, primer LHS)
 
 

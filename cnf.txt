@@ -1,6 +1,6 @@
 Det\arrowa | the
 N\arrowcat | dog | beer | cake | juice | meat | soup | fork | knife | oven | spoon
-NP\arrowDet N | NP PP | he | she
+NP\arrowDet N | he | she
 P\arrowin | with
 PP\arrowP NP
 S0\arrowNP VP
