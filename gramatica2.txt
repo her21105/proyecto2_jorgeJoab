@@ -1,0 +1,14 @@
+S\arrow NP VP
+VP\arrow VP PP
+VP\arrow V NP
+VP\arrow cooks|drinks|eats|cuts
+PP\arrow P NP
+NP\arrow Det N
+NP\arrow NP PP
+NP\arrow he|she
+V\arrow cooks|drinks|eats|cuts
+P\arrow in|with
+N\arrow cat|dog
+N\arrow beer|cake|juice|meat|soup
+N\arrow fork|knife|oven|spoon
+Det\arrow a|the

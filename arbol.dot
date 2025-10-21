@@ -1,0 +1,24 @@
+digraph G {
+node [shape=plain];
+n0 [label="S0"];
+n1 [label="NP"];
+n2 [label="she"];
+n1 -> n2;
+n3 [label="VP"];
+n4 [label="V"];
+n5 [label="eats"];
+n4 -> n5;
+n6 [label="NP"];
+n7 [label="Det"];
+n8 [label="a"];
+n7 -> n8;
+n9 [label="N"];
+n10 [label="cake"];
+n9 -> n10;
+n6 -> n7;
+n6 -> n9;
+n3 -> n4;
+n3 -> n6;
+n0 -> n1;
+n0 -> n3;
+}

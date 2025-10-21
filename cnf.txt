@@ -1,0 +1,8 @@
+Det\arrowa | the
+N\arrowcat | dog | beer | cake | juice | meat | soup | fork | knife | oven | spoon
+NP\arrowDet N | NP PP | he | she
+P\arrowin | with
+PP\arrowP NP
+S0\arrowNP VP
+V\arrowcooks | drinks | eats | cuts
+VP\arrowVP PP | V NP | cooks | drinks | eats | cuts

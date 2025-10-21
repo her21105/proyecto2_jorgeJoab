@@ -1,0 +1,177 @@
+{
+  "nonterminals": [
+    "Det",
+    "N",
+    "NP",
+    "P",
+    "PP",
+    "S0",
+    "V",
+    "VP"
+  ],
+  "terminals": [
+    "a",
+    "beer",
+    "cake",
+    "cat",
+    "cooks",
+    "cuts",
+    "dog",
+    "drinks",
+    "eats",
+    "fork",
+    "he",
+    "in",
+    "juice",
+    "knife",
+    "meat",
+    "oven",
+    "she",
+    "soup",
+    "spoon",
+    "the",
+    "with"
+  ],
+  "start": "S0",
+  "rules": {
+    "NP": [
+      [
+        "Det",
+        "N"
+      ],
+      [
+        "NP",
+        "PP"
+      ],
+      [
+        "he"
+      ],
+      [
+        "she"
+      ]
+    ],
+    "PP": [
+      [
+        "P",
+        "NP"
+      ]
+    ],
+    "S0": [
+      [
+        "NP",
+        "VP"
+      ]
+    ],
+    "V": [
+      [
+        "cooks"
+      ],
+      [
+        "drinks"
+      ],
+      [
+        "eats"
+      ],
+      [
+        "cuts"
+      ]
+    ],
+    "N": [
+      [
+        "cat"
+      ],
+      [
+        "dog"
+      ],
+      [
+        "beer"
+      ],
+      [
+        "cake"
+      ],
+      [
+        "juice"
+      ],
+      [
+        "meat"
+      ],
+      [
+        "soup"
+      ],
+      [
+        "fork"
+      ],
+      [
+        "knife"
+      ],
+      [
+        "oven"
+      ],
+      [
+        "spoon"
+      ]
+    ],
+    "Det": [
+      [
+        "a"
+      ],
+      [
+        "the"
+      ]
+    ],
+    "P": [
+      [
+        "in"
+      ],
+      [
+        "with"
+      ]
+    ],
+    "VP": [
+      [
+        "VP",
+        "PP"
+      ],
+      [
+        "V",
+        "NP"
+      ],
+      [
+        "cooks"
+      ],
+      [
+        "drinks"
+      ],
+      [
+        "eats"
+      ],
+      [
+        "cuts"
+      ]
+    ]
+  },
+  "mappings": {
+    "added_start": {
+      "new_start": "S0",
+      "old_start": "S"
+    },
+    "removed_epsilon": {
+      "nullable": [],
+      "expanded": 32
+    },
+    "removed_unit": {
+      "unit_pairs": [
+        [
+          "S0",
+          "S"
+        ]
+      ]
+    },
+    "removed_useless": {
+      "removed_non_generating": [],
+      "removed_unreachable": []
+    },
+    "terminal_lifting": {},
+    "binarization": {}
+  }
+}
